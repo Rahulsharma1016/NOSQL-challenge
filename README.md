@@ -6,7 +6,9 @@ It covers the process of using the mongoimport function to load a JSON file into
 Import the Data into MongoDB
 Use the mongoimport function to import the provided establishments.json file into a new MongoDB database called uk_food:
 
+
 mongoimport --type json -d uk_food -c establishments --drop --jsonArray starter_code/Resources/establishments.json
+
 
 This repository contains the following documents. Jupiter File
 Starter Code
